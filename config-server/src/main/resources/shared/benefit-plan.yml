@@ -10,4 +10,4 @@ server:
 #      grant-type: client_credentials
 #      scope: server
       
-refreshParameter: BeforeConfigRefresh
+refreshParameter: AfterConfigRefresh
