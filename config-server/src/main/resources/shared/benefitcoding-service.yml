@@ -1,0 +1,14 @@
+server:
+  contextPath: /groups
+  
+
+#security:
+#  oauth2:
+#    client:
+#      clientId: benefitcoding-service
+#      clientSecret: groups
+#      accessTokenUri: http://writer:writer@ec2-34-212-49-187.us-west-2.compute.amazonaws.com:5000/uaa/oauth/token
+#      grant-type: client_credentials
+#      scope: server
+
+refreshParameter: BenefitCodingBeforeRefresh

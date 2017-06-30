@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: benefit-plan
+  cloud:
+    config:
+      uri: http://ec2-34-212-49-187.us-west-2.compute.amazonaws.com:8889
+      #uri: http://localhost:8889
+      fail-fast: true
+      password: password
+      username: user
+      
+management:
+  security:
+    enabled: false

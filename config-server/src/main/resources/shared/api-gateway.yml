@@ -1,0 +1,21 @@
+zuul:
+  routes:
+    auth-server:
+        path: /uaa/**
+        url: http://ec2-34-212-49-187.us-west-2.compute.amazonaws.com:5000
+        stripPrefix: false
+        sensitiveHeaders:
+        serviceId: auth-server
+    benefitcoding-service:
+        path: /groups/**
+        stripPrefix: false
+        sensitiveHeaders:
+        serviceId: benefitcoding-service
+    benefit-plan:
+        path: /statistics/**
+        stripPrefix: false
+        sensitiveHeaders:
+        serviceId: benefit-plan
+       
+server:
+  port: 4000
